@@ -104,6 +104,9 @@
 ## **7. Git 기타명령어**
   + ### git commit --amend
   + ### .gitignore
+  + ### git diff 설정 
+   + git diff는 커밋후 변경된 사항을 보여주는 명령어 입니다.
+    + git diff tool 설정을 위해 git kDiff3 설치 설정 법을 예시로 들겠습니다.
 ---
 ## **8. Tips & Etc**
   + ### 이슈해결
