@@ -105,8 +105,15 @@
   + ### git commit --amend
   + ### .gitignore
   + ### git diff 설정 
-   + git diff는 커밋후 변경된 사항을 보여주는 명령어 입니다.
+    + git diff는 커밋후 변경된 사항을 보여주는 명령어 입니다.
     + git diff tool 설정을 위해 git kDiff3 설치 설정 법을 예시로 들겠습니다.
+
+          $ git config --global --add gitdiff.tool kdiff3
+          $ git config --global --add gitdifftool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
+          $ git config --global --add mergetool.kdiff3.trustExitCode false
+          
+
+
 ---
 ## **8. Tips & Etc**
   + ### 이슈해결
